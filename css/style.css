@@ -1,0 +1,161 @@
+body{
+    background: pink;
+}
+@font-face {
+    font-family: "Sequel";
+    src: url("../type/Sequel100Wide-45Wide.woff");
+}
+
+@font-face {
+    font-family: "TimesNow";
+    src: url("../type/TimesNow-SemiLight.woff");
+}
+@keyframes animationOpacity{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes animationOpacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+
+h2{
+    font-family: "TimesNow";
+    letter-spacing: 0.04rem;
+    font-size: 60px;
+    margin-bottom: 2%;
+}
+li{
+    font-family: "Sequel";
+    font-size: 20px;
+    letter-spacing: 0.04rem;
+    line-height : 2.4rem;
+}
+ul{
+    padding-left: 5%;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    animation-name: animationOpacity;
+    animation-duration: 3s;
+    -webkit-animation-name: animationOpacity;
+    -webkit-animation-duration: 3s;
+} 
+
+
+nav{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    mix-blend-mode: difference;
+}
+
+
+header h2, a{
+    font-family: "TimesNow";
+    font-size: 20px;
+    letter-spacing: 0.04rem;
+}
+
+.description{
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+.description1{
+    animation-name: animationOpacity;
+    animation-duration: 3s;
+    -webkit-animation-name: animationOpacity;
+    -webkit-animation-duration: 3s;
+}
+.description2{
+    animation-name: animationOpacity;
+    animation-duration: 4s;
+    -webkit-animation-name: animationOpacity;
+    -webkit-animation-duration:4s;
+}
+.description3{
+    animation-name: animationOpacity;
+    animation-duration: 5s;
+    -webkit-animation-name: animationOpacity;
+    -webkit-animation-duration: 5s;
+}
+.description ::selection {
+    color: red;
+    background: yellow;
+  }
+.description h1, p {
+    font-family: "Sequel";
+    font-size: 30px;
+    letter-spacing: 0.04rem;
+}
+p, h1{
+    margin-bottom: 2%;
+    line-height : 2.4rem;
+}
+
+.info{
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+.infoImg{
+    width: 50%; 
+}
+.infoImg img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.infoCaja{
+    width: 50%;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services, .clients{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clients{
+    margin-top: 20%;
+}
+.logo{
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
+    padding: 0 20px;
+    /* outline: 1px solid red;*/
+}
+.logos {
+    /*outline: 1px solid blue;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1, .logo2{
+    width: 50%;
+}
+.logo3, .logo4{
+    width: 95%;
+}
