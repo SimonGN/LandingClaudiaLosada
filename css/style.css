@@ -155,8 +155,17 @@ nav{
 .logo1, .logo2{
     width: 50%;
 }
-.logo3, .logo4{
+.logo3{
+    width: 80%;
+}
+.logo4{
     width: 95%;
+}
+.logo5{
+    width: 70%;
+}
+.logo6{
+    width: 60%;
 }
 footer{
     width: 90%;
@@ -269,9 +278,15 @@ footer{
     .logo3, .logo4{
         width: 55%;
     }
-  }
+    .logo5{
+        width: 40%;
+    }
+    .logo6{
+        width: 50%;
+    }
+}
+  
 
-} 
 
 
 
