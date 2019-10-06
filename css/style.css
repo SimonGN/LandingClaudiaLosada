@@ -40,10 +40,10 @@ li{
     margin-bottom: 5%;
 }
 header{
+    background-color: #f4d3c8;
     width: 100%;
     position: fixed;
     align-items: center;
-    padding-top:3%;
     animation-name: animationOpacity;
     animation-duration: 3s;
     -webkit-animation-name: animationOpacity;
@@ -60,11 +60,13 @@ nav{
     width: 90%;
     margin: 0 auto;
     padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: flex; 
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    mix-blend-mode: difference;
+    
 }
 .description{
     width: 90vw;
@@ -216,10 +218,13 @@ footer{
     footer{
         margin-top: 2%;
     }
+    .logo{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
   }
 @media only screen and (min-width:1025px){
     header{
-        margin-top: 2%;
         padding: 0;
     }
     h2{
@@ -265,8 +270,11 @@ footer{
         padding-bottom: 9%;
     }
     .logo{
+        grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 120px;
+
     }
+
 
     footer{
         margin-top: 1%;
