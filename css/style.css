@@ -112,11 +112,13 @@ nav{
     flex-flow: column;
 }
 .infoImg{
-    width: 100%; 
+    width: 100%;
+     
 }
 .infoImg img{
     width: 100%;
     object-fit: cover;
+    min-height: 100%;
 }
 .infoCaja{
     width: 100%;
@@ -139,6 +141,7 @@ nav{
 .logo{
     width: 100%;
     margin-top: 5%;
+    margin-bottom: 25%;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -220,7 +223,7 @@ footer{
     }
     .logo{
         grid-template-columns: repeat(3, 1fr);
-
+        margin-bottom:0%;
     }
   }
 @media only screen and (min-width:1025px){
@@ -272,6 +275,7 @@ footer{
     .logo{
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 120px;
+        margin-bottom: 0%;
 
     }
 
